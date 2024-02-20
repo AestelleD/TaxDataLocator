@@ -3,7 +3,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Tax Search v1.0")
 
-filename=("C:/Users/mikuf/Downloads/TaxData/TaxData.json") #Load the file
+filename=("TaxData.json") #Load the file
 filename = open(filename)
 file_data = json.load(filename)
 var = tk.StringVar()
